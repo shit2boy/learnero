@@ -1,0 +1,23 @@
+.about {
+  /* width: 100vh; */
+  height: 100vh;
+  background-image: url("../../Assets/learnero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  /* position: relative; */
+}
+
+@media screen and (max-width: 600px) {
+  .bio {
+    width: 100%;
+    padding: 10px;
+  }
+  .bio-content {
+    font-size: medium;
+  }
+  .scrollIcon {
+    margin: 20px;
+  }
+}
