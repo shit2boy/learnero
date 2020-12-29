@@ -3,3 +3,32 @@
   background: #333333;
   padding: 30px;
 }
+.word-container {
+  height: 200px;
+  display: grid;
+  place-items: center;
+}
+.card-content {
+  width: 80%;
+  font-weight: 500;
+  text-align: center;
+  font-size: 32px;
+}
+.hr-line {
+  background: rgb(187, 27, 27);
+  background: linear-gradient(
+    90deg,
+    rgba(187, 27, 27, 1) 15%,
+    rgba(15, 21, 179, 1) 54%,
+    rgba(176, 53, 34, 1) 80%
+  );
+  padding: 3px;
+  /* background: rgb(131, 58, 180); */
+  width: 50%;
+  /* border-color: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 55%,
+    rgba(252, 176, 69, 1) 100%
+  ); */
+}

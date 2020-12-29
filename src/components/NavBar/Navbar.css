@@ -14,14 +14,3 @@ nav a {
 /* i {
   color: white;
 } */
-
-#hr-line {
-  background-image: linear-gradient(
-    to red,
-    #b03522,
-    #780fb3,
-    #007cba,
-    #780fb3,
-    #e6e615
-  );
-}

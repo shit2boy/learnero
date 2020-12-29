@@ -1,0 +1,34 @@
+.card-type {
+  border-bottom-right-radius: 150px;
+  background: #0f0f0f;
+  padding: 20px;
+}
+
+sup,
+sub,
+ul > li,
+.card-title {
+  color: #ddd9d9;
+}
+
+.pricing-card {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgb(176, 53, 34) 55%,
+    rgba(252, 176, 69, 1) 100% rgba(131, 58, 180, 1) 33%
+  );
+}
+.price-label {
+  color: rgba(131, 58, 180, 1);
+  /* background: -webkit-linear-gradient(#d8b5b5, #833ab4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  font-size: 70px;
+  /* color: black; */
+  text-align: center;
+}
+ul li {
+  padding: 15px;
+  list-style: none;
+}

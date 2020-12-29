@@ -1,0 +1,62 @@
+.one {
+  grid-area: one;
+  /* padding: 20px; */
+  /* background-image: url("https://secureservercdn.net/72.167.241.46/znf.a99.myftpupload.com/wp-content/uploads/2020/12/qtq80-mzExgf.jpeg?time=1608743753");
+  object-fit: cover; */
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "one one two"
+    "one one three"
+    "four five six";
+  grid-gap: 10px;
+  width: 85%;
+  height: 60%;
+  margin: auto;
+  margin-bottom: 80px;
+  /* padding: 10px; */
+}
+
+.grid-container > div {
+  padding: 5px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.grow {
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.1s ease-out;
+}
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.1);
+}
+.grid-detail {
+  color: blueviolet;
+}
+.grid-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
