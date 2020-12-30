@@ -1,28 +1,28 @@
 import React from "react";
 import "./card.css";
 const Card = () => {
-  const projects = [
-    {
-      name: "FLEXIBILITY",
-      info:
-        "Our on-demands videos ensure flexibility so that you can learn whenever you want ",
-    },
-    {
-      name: "SUPPORT",
-      info:
-        "Our chat function allow interactions with teachers so that learning never stop ",
-    },
-    {
-      name: "DOWNLOADS",
-      info:
-        "Our downloads feature ensure flexibility so that you can learn whenever you want ",
-    },
-    {
-      name: "COMMUNITY",
-      info:
-        "Our 7 categories & global community of brilliant teachers give you the choice tolearn base on your comfort ",
-    },
-  ];
+  // const projects = [
+  //   {
+  //     name: "FLEXIBILITY",
+  //     info:
+  //       "Our on-demands videos ensure flexibility so that you can learn whenever you want ",
+  //   },
+  //   {
+  //     name: "SUPPORT",
+  //     info:
+  //       "Our chat function allow interactions with teachers so that learning never stop ",
+  //   },
+  //   {
+  //     name: "DOWNLOADS",
+  //     info:
+  //       "Our downloads feature ensure flexibility so that you can learn whenever you want ",
+  //   },
+  //   {
+  //     name: "COMMUNITY",
+  //     info:
+  //       "Our 7 categories & global community of brilliant teachers give you the choice tolearn base on your comfort ",
+  //   },
+  // ];
 
   return (
     <>

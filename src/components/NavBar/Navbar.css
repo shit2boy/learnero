@@ -14,3 +14,10 @@ nav a {
 /* i {
   color: white;
 } */
+
+@media only screen and (max-width: 600px) {
+  /* Small screen, non-retina */
+  .social-icon {
+    display: none;
+  }
+}

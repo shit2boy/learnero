@@ -10,7 +10,7 @@ const NavBar = () => {
   };
   return (
     <nav className="navbar navbar-expand-sm">
-      <div className="container">
+      <div className="container nav-container">
         <a className="navbar-brand" href="/">
           <img
             src="https://secureservercdn.net/72.167.241.46/znf.a99.myftpupload.com/wp-content/uploads/2020/10/learnero-1.png"
@@ -23,7 +23,7 @@ const NavBar = () => {
           type="button"
           onClick={() => toggleNav()}
         >
-          <i className="fas fa-align-left"></i>
+          <i className="fas fa-align-left" style={{ color: "red" }}></i>
         </button>
         <div
           className={
@@ -59,13 +59,13 @@ const NavBar = () => {
               </NavLink>
             </li>
           </ul>
-          <div className="nav-item">
+          <div className="nav-item social-icon">
             <i className="nav-link fas fa-heart"></i>
           </div>
           <div className="nav-item p-1" style={{ border: "2px solid red" }}>
             <i style={{ color: "red" }} className=" fas fa-search"></i>
           </div>
-          <div className="navbar-nav ml-5">
+          <div className="navbar-nav ml-5 social-icon">
             <i
               style={{ color: "white" }}
               className="nav-link fab fa-facebook"

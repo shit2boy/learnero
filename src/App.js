@@ -10,6 +10,7 @@ import Label from "./components/Label/Label";
 import Pricing from "./components/pricing/Pricing-card";
 import BecomeInstructor from "./components/BecomeInstructor/BecomeInstructor";
 import SocialMedia from "./components/Social-media/Social-media";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
       <Pricing types={pricingType} title="Pricing" />
       <BecomeInstructor />
       <SocialMedia />
+      <Footer />
     </Fragment>
   );
 };

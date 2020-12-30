@@ -1,3 +1,6 @@
+.herro {
+  padding: 70px;
+}
 .about {
   /* width: 100vh; */
   height: 100vh;
@@ -9,15 +12,30 @@
   /* position: relative; */
 }
 
-@media screen and (max-width: 600px) {
-  .bio {
-    width: 100%;
-    padding: 10px;
+@media only screen and (max-width: 600px) {
+  /* Small screen, non-retina */
+  .herro {
+    padding: 2px;
   }
-  .bio-content {
-    font-size: medium;
-  }
-  .scrollIcon {
-    margin: 20px;
+  .about {
+    background-image: url("https://secureservercdn.net/72.167.241.46/znf.a99.myftpupload.com/wp-content/uploads/2020/10/header-image-300x159.png");
   }
 }
+
+@media only screen and (min-width: 321px) and (max-width: 538px) {
+  /* Medium screen, non-retina */
+
+  .about {
+    background-image: url("https://secureservercdn.net/72.167.241.46/znf.a99.myftpupload.com/wp-content/uploads/2020/10/header-image-768x407.png");
+  }
+}
+
+@media only screen and (min-resolution: 2dppx) and (min-width: 539px) {
+  /* Large screen, retina */
+  .about {
+    background-image: url("https://secureservercdn.net/72.167.241.46/znf.a99.myftpupload.com/wp-content/uploads/2020/10/header-image-600x318.png");
+  }
+}
+
+/* https://secureservercdn.net/72.167.241.46/znf.a99.myftpupload.com/wp-content/uploads/2020/10/header-image.png 1217w,
+  https://secureservercdn.net/72.167.241.46/znf.a99.myftpupload.com/wp-content/uploads/2020/10/header-image-1024x543.png 1024w, */

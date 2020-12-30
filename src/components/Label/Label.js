@@ -21,7 +21,7 @@ const Label = () => {
               </span>
             </h5>
           </div>
-          <div className="col-lg-3 col-md col-sm">
+          <div className="col-lg-3 col-md-4 col-sm">
             <h5>
               <i
                 className="p-1 fas fa-map-marker-alt"
@@ -32,7 +32,7 @@ const Label = () => {
               </span>
             </h5>
           </div>
-          <div className="col-lg-3 col-md col-sm">
+          <div className="col-lg-3 col-md-4 col-sm">
             <h5>
               <i
                 className="p-1 fas fa-graduation-cap"
@@ -43,7 +43,7 @@ const Label = () => {
               </span>
             </h5>
           </div>
-          <div className="col-lg-3 col-md col-sm">
+          <div className="col-lg-3 col-md-4 col-sm">
             <h5>
               <i
                 className="p-1 fas fa-comments"

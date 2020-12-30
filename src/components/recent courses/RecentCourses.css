@@ -11,9 +11,15 @@
   color: rgb(8, 121, 59);
   display: inline;
   padding: 15px;
+  cursor: pointer;
 }
 .show-all-btn {
   display: grid;
   place-items: center;
   margin-top: 50px;
+}
+@media (max-width: 600px) {
+  .category {
+    display: inline-block;
+  }
 }

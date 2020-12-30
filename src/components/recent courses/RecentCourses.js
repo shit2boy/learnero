@@ -18,7 +18,7 @@ const CourseContainer = ({ title, subtitle, contents, ...otherProps }) => {
       <div>
         <div className="row">
           {contents.map((item) => (
-            <div className="col-lg-4 col-md col-sm mb-3">
+            <div className="col-lg-4 col-md-6 col-sm mb-3">
               <div class="card" style={{ maxWidth: "350px" }}>
                 <img
                   className="card-img-top"

@@ -5,7 +5,7 @@ import "./Hero.css";
 
 const Hero = (props) => {
   return (
-    <div style={{ padding: "70px" }}>
+    <div className="herro">
       <div className="about"></div>
     </div>
   );

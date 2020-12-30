@@ -10,7 +10,7 @@ const Pricing = ({ title, types }) => {
       <div style={{ marginTop: "50px" }}>
         <div className="row">
           {types.map((type) => (
-            <div className="col-lg-4 col-md col-sm mb-3">
+            <div className="col-lg-4 col-md-6 col-sm mb-3">
               <div className="pricing-card">
                 <div className="card card-type" style={{ maxWidth: "350px" }}>
                   <h2 className="text-center card-title ">{type.type}</h2>

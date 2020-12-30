@@ -5,6 +5,7 @@
 }
 .word-container {
   height: 200px;
+  margin-top: 30px;
   display: grid;
   place-items: center;
 }
@@ -31,4 +32,17 @@
     rgba(253, 29, 29, 1) 55%,
     rgba(252, 176, 69, 1) 100%
   ); */
+}
+@media only screen and (max-width: 320px) {
+  /* Small screen, non-retina */
+}
+
+@media (max-width: 600px) {
+  .word-container {
+    height: auto;
+  }
+  .card-content {
+    font-size: medium;
+    font-weight: 200;
+  }
 }
